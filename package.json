@@ -1,0 +1,30 @@
+{
+  "type":"module",
+  "name": "user-data-validation",
+  "version": "1.0.0",
+  "description": "API construída com Node.js para verificação e validação de campos e dados pessoais. Nessa API faço a validação de e-mails e senhas, verificando a existência e força dos dados.",
+  "main": "./src/index.js",
+  "scripts": {
+    "start:dev": "nodemon ./src/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Vinicius-Borges-dev/User-data-validation.git"
+  },
+  "keywords": [
+    "validation"
+  ],
+  "author": "Vinícius Borges",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Vinicius-Borges-dev/User-data-validation/issues"
+  },
+  "homepage": "https://github.com/Vinicius-Borges-dev/User-data-validation#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.19.2"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.0"
+  }
+}
