@@ -10,6 +10,7 @@ authRouter.get('/', (req, res) => {
     })
 })
 
+// Instânciando uma nova classe
 const auth = new authController();
 
 // Rota para fazer a verificação apenas do e-mail
