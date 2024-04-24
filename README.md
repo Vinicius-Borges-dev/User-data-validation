@@ -9,7 +9,7 @@ Essa API foi criada por mim com o intuito de fazer uma verificação mais básic
 1. Verifica se o campo foi preenchido.
 
 
-        E retorna como resposta um objeto booleano: itWasFilled
+    > E retorna como resposta um objeto booleano: itWasFilled
 
 
 2. Verifica se o email possue um formato válido:
@@ -18,23 +18,23 @@ Essa API foi criada por mim com o intuito de fazer uma verificação mais básic
 
     II. Não deve possuir espaços.
 
-        E retorna como resposta um objeto booleano: hadFormatValidation
+    > E retorna como resposta um objeto booleano: hadFormatValidation
 
 
     
 3. Verifica se o email está numa lista negra, ou seja, ele NÃO deve ser igual a um email dessa lista, pois pode ser um email falso.
 
-        E retorna como resposta um objeto booleano: wasBlacklisted
+    > E retorna como resposta um objeto booleano: wasBlacklisted
 -------------------
 
 #### Senha:
 1. Verifica se o campo foi preenchido.
 
-        E retorna como resposta um objeto booleano: itWasFilled
+    > E retorna como resposta um objeto booleano: itWasFilled
 
 2. Verifica se a senha possue um tamanho mínimo de 8 caracteres.
 
-        E retorna como resposta um objeto booleano: hadLengthValidation
+    > E retorna como resposta um objeto booleano: hadLengthValidation
 
 3. Verifica se a senha possue um formato válido:
 
@@ -44,11 +44,11 @@ Essa API foi criada por mim com o intuito de fazer uma verificação mais básic
 
     III. Deve possuir no mínimo 1 caractere especial.
 
-        E retorna como resposta um objeto booleano: hadFormatValidation
+    > E retorna como resposta um objeto booleano: hadFormatValidation
     
 4. Em conjunto com a confirmação de senha, verifica se as duas estão iguais.
 
-        E retorna como resposta um objeto booleano: passwordsMatch
+    > E retorna como resposta um objeto booleano: passwordsMatch
 ---------------------------------------------------------
 
 
