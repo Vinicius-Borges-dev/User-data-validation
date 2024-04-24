@@ -83,7 +83,7 @@ OBS: lembre-se de usar funções asincronas para realizar as consultas, seja com
 
 ## Comandos
 
-O fetch para realizar a consulta sempre seguirá o mesmo padrão, a unica mudança será os dados via **POST** que serâo enviados:
+O fetch para realizar a consulta sempre seguirá o mesmo padrão, a unica mudança será os dados via **POST** que serão enviados:
 
 ```
 fetch("url", {
