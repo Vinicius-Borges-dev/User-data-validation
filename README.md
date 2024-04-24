@@ -70,9 +70,9 @@ Em seguida, rode a API com o comando:
 Esse comando rodará na porta 9090 e você poderá dar continuidade com o seu código utilizando de um middleware que só dará sequência ao seu código se passar pela validação.
 
 ## Como fazer as validações
-Para utilizar o os comandos da API você deve mencionar o(os) dado(os) do(os) campo(os) e qual validação você quer que senja executada, a menção dos objetos via **POST** deve seguir a seguinte ordem:
+Para utilizar o os comandos da API você deve mencionar o(os) dado(os) do(os) campo(os) e qual validação você quer que seja executada, a menção dos objetos via **POST** deve seguir a seguinte ordem:
 
-OBS: lembre-se de usar funções asincronas para realizar as consultas, seja com [async await]("https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Reference/Statements/async_function") ou [.then()]("https://developer.mozilla.org/pt-BR/docs/Web/API/Fetch_API/Using_Fetch")
+OBS: lembre-se de usar funções asincronas para realizar as consultas, seja com [async await](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Reference/Statements/async_function) ou [.then()](https://developer.mozilla.org/pt-BR/docs/Web/API/Fetch_API/Using_Fetch)
 
 
     let data = {
