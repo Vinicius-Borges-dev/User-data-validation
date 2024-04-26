@@ -52,7 +52,7 @@ Essa API foi criada por mim com o intuito de fazer uma verificação mais básic
 ---------------------------------------------------------
 
 
-## Como usar a API em conjunto com a seu código
+## Como usar a API em conjunto com o seu código
 Primeiramente, você deve clonar o repositório para a sua máquina usando a linha de comando:
 ```
 git clone https://github.com/Vinicius-Borges-dev/User-data-validation.git
