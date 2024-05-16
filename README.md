@@ -140,16 +140,16 @@ o resultado irá retornar um json da seguinte forma:
     {
         "password": [
             {
-                "itWasFilled": true
+                "itWasFilled": boolean
             },
             {
-                "hadLengthValidation": true
+                "hadLengthValidation": boolean
             },
             {
-                "hadFormatValidation": true
+                "hadFormatValidation": boolean
             },
             {
-                "passwordsMatch": false
+                "passwordsMatch": boolean
             }
         ]
     }
