@@ -169,27 +169,27 @@ O resultado retornará um json no seguinte formato:
         "Result": {
             "email": [
                 {
-                    "itWasFilled": true
+                    "itWasFilled": boolean
                 },
                 {
-                    "hadFormatValidation": true
+                    "hadFormatValidation": boolean
                 },
                 {
-                    "wasBlacklisted": false
+                    "wasBlacklisted": boolean
                 }
             ],
             "password": [
                 {
-                    "itWasFilled": true
+                    "itWasFilled": boolean
                 },
                 {
-                    "hadLengthValidation": true
+                    "hadLengthValidation": boolean
                 },
                 {
-                    "hadFormatValidation": true
+                    "hadFormatValidation": boolean
                 },
                 {
-                    "passwordsMatch": true
+                    "passwordsMatch": boolean
                 }
             ]
         }
